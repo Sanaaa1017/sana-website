@@ -8,14 +8,15 @@ defineProps({
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
-  </div>
+  <header>
+    <div class="flex gap-4 justify-center p-5 font-serif">
+      <RouterLink :to="{ name : 'about' }">About</RouterLink>
+      <RouterLink :to="{ name : 'about' }">Works</RouterLink>
+      <RouterLink :to="{ name : 'about' }">Blog</RouterLink>
+      <RouterLink :to="{ name : 'about' }">Contact</RouterLink>
+      <RouterLink :to="{ name : 'home' }">Home</RouterLink>
+    </div>
+  </header>
 </template>
 
 <style scoped>
@@ -36,6 +37,7 @@ h3 {
 }
 
 @media (min-width: 1024px) {
+
   .greetings h1,
   .greetings h3 {
     text-align: left;
