@@ -16,10 +16,8 @@ export default {
         "6xl": "3.5rem", // 56px
       },
       fontFamily: {
-        sans: ['Roboto', 'Arial', 'sans-serif'],  // 自訂 sans 字體系列
-        serif: ['Merriweather', 'serif'],         // 自訂 serif 字體系列
-        custom1: ['"Open Sans"', 'Helvetica', 'sans-serif'],  // 自訂字體家族1
-        custom2: ['"Lora"', 'Georgia', 'serif'],             // 自訂字體家族2
+        sans: ['Roboto', 'Arial', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
       },
     },
   },
