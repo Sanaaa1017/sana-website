@@ -1,18 +1,16 @@
 <script>
-// import NavMenu from '../components/Navbar/NavMenu.vue'
 
 export default {
     name: 'HomeView',
-//     components: {
-//     NavMenu
-//   }
 }
 </script>
 
 <template>
-    <!-- <NavMenu/> -->
-    <div>
+    <div class="max-w-[1440px] m-auto">
         <!-- banner -->
+         <section>
+            <img src="/public/my-image/background.jpg" alt="banner">
+         </section>
         <section>
             <div class="banner w-100 h-80 bg-neutral-300"></div>
         </section>
@@ -26,3 +24,9 @@ export default {
         </section>
     </div>
 </template>
+
+<style>
+body{
+    background-color: rgb(255, 250, 232);
+}
+</style>
